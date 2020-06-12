@@ -1,6 +1,6 @@
 package domain;
 
-public interface Command{
+public interface Operacion{
 	void ejecutar();
 	void deshacer();
 }

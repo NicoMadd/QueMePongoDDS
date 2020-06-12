@@ -1,3 +1,6 @@
+package domain;
+
+import java.util.LinkedList;
 import java.util.List;
 
 public class GuardarropaCompartido {
@@ -7,8 +10,8 @@ public class GuardarropaCompartido {
 	
 	GuardarropaCompartido(Guardarropa guardarropa){
 		this.guardarropa = guardarropa;
-		solicitudesPendientes = new List();
-		solicitudesAceptadas = new List();
+		solicitudesPendientes = new LinkedList<>();
+		solicitudesAceptadas = new LinkedList<>();
 	}
 	
 	public void aceptarSolicitud(Solicitud solicitud){

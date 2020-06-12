@@ -2,6 +2,7 @@ package domain;
 
 public interface ServicioMeteorologico {
 	   int consultarTemperatura(String direccion);
-	   // opcional
+	   int consultaTormenta();
+	   
 	  // Humedad consultarHumedad(String direccion);
 	}

@@ -1,16 +1,16 @@
 
 public class Solicitud {
-	Command command;
+	Operacion operacion;
 	
-	Solicitud(Command operacion){
-		this.command = operacion;
+	Solicitud(Operacion operacion){
+		this.operacion = operacion;
 	}
 	
 	public void deshacer() {
-		command.deshacer();
+		operacion.deshacer();
 	}
 	
 	public void ejecutar() {
-		command.ejecutar();
+		operacion.ejecutar();
 	}
 }
